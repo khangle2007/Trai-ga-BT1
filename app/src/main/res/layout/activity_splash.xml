@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="@color/surface_bg"
+    android:gravity="center"
+    android:orientation="vertical"
     android:padding="24dp">
 
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@android:drawable/sym_def_app_icon"
+        android:contentDescription="Biểu tượng ứng dụng"
         android:scaleType="centerInside"
-        android:contentDescription="Biểu tượng ứng dụng" />
+        android:src="@android:drawable/sym_def_app_icon" />
 
     <TextView
         android:id="@+id/txtAppTitle"
